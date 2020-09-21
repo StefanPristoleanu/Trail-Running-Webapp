@@ -1,0 +1,23 @@
+registerUser (username, e-mail, password, re-typed password);
+
+loginUser (username, password);
+
+After a successful authentication, an access token is generated, which is used in every other function to validate the access.
+
+logoutUser (clear session);
+
+updateUser (username, new_e-mail, new_password, re-typed password);
+
+deleteUser (username, password, re-typed password);
+
+uploadTrail (trailPath (JSON), trailTime, trailLength, trailLevel, trailRegion, trailDescription);
+
+updateTrail (new_trailPath, new_trailTime, new_trailLength, new_trailLevel, new_trailRegion, new_trailDescription);
+
+deleteTrail (trailPath);
+
+beginLoggingTrail (trailPathStart);
+
+finishLoggingTrail (trailPathEnd);
+
+showAllTrails (region);

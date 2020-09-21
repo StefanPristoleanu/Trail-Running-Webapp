@@ -1,0 +1,24 @@
+{
+  "name": "api_nodejs_postgresql",
+  "version": "0.0.1",
+  "description": "Test API project for Node.js and PostgreSQL",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js",
+    "dev": "nodemon app/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "moment": "^2.22.2",
+    "pg": "^7.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "nodemon": "^1.18.6"
+  }
+}

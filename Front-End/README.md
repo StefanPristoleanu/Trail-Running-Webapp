@@ -1,0 +1,1 @@
+This is the front-end ReactJs web application for the Trail Running project. 
